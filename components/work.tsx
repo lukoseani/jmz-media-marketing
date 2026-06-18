@@ -10,18 +10,18 @@ const PROJECTS = [
     span: "lg:col-span-2",
   },
   {
-    image: "/client-realtor.png",
-    client: "Jogy Mathew — Edmonton Realtor",
-    title: "Social media ads that drive qualified buyer & seller leads",
-    tags: ["Social Media Ads", "Meta Ads"],
-    span: "",
-  },
-  {
     image: "/client-cabinet.png",
     client: "Cabinet Planet",
     title: "Social media ad campaigns that book more kitchen projects",
     tags: ["Social Media Ads", "Ad Creative"],
-    span: "lg:col-span-3",
+    span: "",
+  },
+  {
+    image: "/client-realtor.png",
+    client: "Jogy Mathew — Edmonton Realtor",
+    title: "Social media ads that drive qualified buyer & seller leads",
+    tags: ["Social Media Ads", "Meta Ads"],
+    span: "lg:col-span-2",
   },
 ]
 
