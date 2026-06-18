@@ -18,10 +18,13 @@ export function SiteHeader() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
-        <a href="#top" className="flex items-baseline gap-1 font-heading text-xl font-bold tracking-tight">
-          JMZ
-          <span className="text-primary">.</span>
-          <span className="hidden text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground sm:inline">
+        <a
+          href="#top"
+          className="group flex items-baseline gap-1 font-heading text-lg font-bold tracking-tight sm:text-xl"
+        >
+          <span className="animate-logo-pop">JMZ</span>
+          <span className="animate-logo-blink text-primary">.</span>
+          <span className="animate-logo-slide text-[0.6rem] font-medium uppercase tracking-[0.2em] text-muted-foreground transition-colors group-hover:text-foreground sm:text-xs">
             Media&amp;Marketing
           </span>
         </a>
